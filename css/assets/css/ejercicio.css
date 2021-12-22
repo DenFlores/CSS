@@ -1,0 +1,39 @@
+
+
+body{
+    background-color: rgb(41, 112, 68);
+}
+    
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    color: black;
+    
+
+
+    
+}
+.texto1{
+    color: white; font-style: italic;
+}
+.texto2{
+    color: rgb(243, 238, 171); font-style:inherit ;
+}
+.texto3{
+    color: rgb(230, 172, 14); font-style:initial ;
+}
+.texto4{
+    color: white; font-style:italic ;
+}
+.texto5{
+    color: rgb(230, 172, 14); font-style:inherit ;
+}
+.texto6{
+    color: rgb(255, 4, 108); font-style:inherit ;
+}
+.texto7{
+    color: rgb(243, 238, 171); font-style:inherit ;
+}
+.texto8{
+    color: rgb(255, 0, 128); font-style:inherit ;
+}
