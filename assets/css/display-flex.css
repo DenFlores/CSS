@@ -1,0 +1,38 @@
+body{
+    background-color:violet ;
+
+}
+.contenedor{
+    /*permite mover las cajas*/
+    display: flex;
+    height: 600px;
+    border: 1px solid gold;
+    /*justify-content: space-around da espacio izquierda y derecha del elemento, space-between espacio entre cajas, space-evenly genera un espacio equitativo*/
+    justify-content: space-evenly;
+    /*justify-conten alinea horizontal*/
+    align-items: flex-start;
+    /*alinea vertical*/
+    flex-wrap: wrap;
+    /*se colocan denajo por falta de espacio*/
+}
+.caja{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+.rojo{
+    background-color: chartreuse;
+    
+}
+.verde{
+    background-color: crimson;
+   /* align-self: center;*/
+}
+.azul{
+    background-color: darkblue;
+    /*align-self: flex-end;*/
+}
+.amarillo{
+    background-color: rgb(141, 141, 182);
+}
